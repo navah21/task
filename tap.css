@@ -1,0 +1,62 @@
+@Keyframes wateropen{
+  from {height:0;top:100%}
+  to{height:100%;top:0 } 
+}
+#container{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+#can{
+  width:200px;
+  height: 300px;
+  background-color: #d3d3d3;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px   solid black
+}
+#water{
+  height:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #3498db;
+
+}
+#tap{
+  display:flex;
+  align-items:flex-end;
+  justify-content: flex-end;
+
+}
+#tapinner{
+background-color: brown;
+height: 10px;
+width:150px;
+margin-top:290px;
+}
+#tapouter{
+  background-color: brown;
+  height:40px;
+  width:10px;
+  position: absolute;
+  bottom:205px;
+}
+#taphandle{
+  background-color: rgb(61, 49, 49);
+  width:30px;
+  height:10px;
+  position: absolute;
+  bottom:240px;
+  right:550px;
+}
+button{
+  border:0;
+}
+#waterflow{
+  height:300px;
+  width:10px;
+  background-color: #fff;
+  position: absolute;
+  top:540px;
+}
